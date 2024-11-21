@@ -11,7 +11,7 @@
     "format": "biome format --write .",
     "precommit": "pnpm run format && biome check --write .",
     "lint": "biome lint --write .",
-    "build": "expo build:web"  // Use expo build:web without installing expo-cli here
+    "build": "expo build:web"
   },
   "author": "InterstellarNetwork",
   "license": "GPL-3.0-or-later",
@@ -25,7 +25,7 @@
     "express-basic-auth": "^1.2.1",
     "mime": "^4.0.4",
     "node-fetch": "^3.3.2",
-    "expo": "^48.0.0"  // Ensure expo is included in dependencies
+    "expo": "^48.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
